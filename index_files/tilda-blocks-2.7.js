@@ -1,0 +1,1 @@
+function t478_setHeight(recid){var el=$('#rec'+recid);var sizer=el.find('.t478__sizer');var height=sizer.height();var width=sizer.width();var ratio=width/height;var imgwrapper=el.find(".t478__blockimg, .t478__textwrapper");var imgwidth=imgwrapper.width();if(height!=$(window).height()){imgwrapper.css({'height':((width/ratio)+'px')})}}
